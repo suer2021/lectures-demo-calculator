@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.nackademin.teau.lectures_demos_calculator.CalculatorTest" time="0.035" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.nackademin.teau.lectures_demos_calculator.CalculatorTest" time="0.042" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="user.country" value="SE"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Apps\eclipse\EclipseJava\binary\com.sun.java.jdk8.win32.x86_64_1.8.0.v152\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\uzab\AppData\Local\Temp\surefire3738126684026382380\surefirebooter7470253465319552134.jar C:\Users\uzab\AppData\Local\Temp\surefire3738126684026382380 2021-03-09T16-51-43_891-jvmRun1 surefire8367663760887964660tmp surefire_04926744777045008367tmp"/>
+    <property name="sun.java.command" value="C:\Users\uzab\AppData\Local\Temp\surefire8822152540859948189\surefirebooter6364408951005709524.jar C:\Users\uzab\AppData\Local\Temp\surefire8822152540859948189 2021-03-09T19-15-26_043-jvmRun1 surefire6366357178754324244tmp surefire_02232456621122766103tmp"/>
     <property name="surefire.test.class.path" value="C:\Users\uzab\Workspaces\TestAutoKurs\lectures-demos-calculator\target\test-classes;C:\Users\uzab\Workspaces\TestAutoKurs\lectures-demos-calculator\target\classes;C:\Users\uzab\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\uzab\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\uzab"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\uzab\AppData\Local\Temp\surefire3738126684026382380\surefirebooter7470253465319552134.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\uzab\AppData\Local\Temp\surefire8822152540859948189\surefirebooter6364408951005709524.jar"/>
     <property name="sun.boot.class.path" value="C:\Apps\eclipse\EclipseJava\binary\com.sun.java.jdk8.win32.x86_64_1.8.0.v152\jre\lib\resources.jar;C:\Apps\eclipse\EclipseJava\binary\com.sun.java.jdk8.win32.x86_64_1.8.0.v152\jre\lib\rt.jar;C:\Apps\eclipse\EclipseJava\binary\com.sun.java.jdk8.win32.x86_64_1.8.0.v152\jre\lib\sunrsasign.jar;C:\Apps\eclipse\EclipseJava\binary\com.sun.java.jdk8.win32.x86_64_1.8.0.v152\jre\lib\jsse.jar;C:\Apps\eclipse\EclipseJava\binary\com.sun.java.jdk8.win32.x86_64_1.8.0.v152\jre\lib\jce.jar;C:\Apps\eclipse\EclipseJava\binary\com.sun.java.jdk8.win32.x86_64_1.8.0.v152\jre\lib\charsets.jar;C:\Apps\eclipse\EclipseJava\binary\com.sun.java.jdk8.win32.x86_64_1.8.0.v152\jre\lib\jfr.jar;C:\Apps\eclipse\EclipseJava\binary\com.sun.java.jdk8.win32.x86_64_1.8.0.v152\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -60,5 +60,6 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="testAddition" classname="com.nackademin.teau.lectures_demos_calculator.CalculatorTest" time="0.002"/>
+  <testcase name="testAddition" classname="com.nackademin.teau.lectures_demos_calculator.CalculatorTest" time="0.012"/>
+  <testcase name="testSubtraction" classname="com.nackademin.teau.lectures_demos_calculator.CalculatorTest" time="0.009"/>
 </testsuite>
